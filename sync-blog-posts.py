@@ -71,8 +71,8 @@ def get_blog_posts(website_path: Path) -> list[dict]:
             'title': frontmatter['title'],
             'slug': slug,
             'date': pub_date,
-            'url': f"https://atsentia.ai/blog/{slug}",  # No trailing slash
-            'hero_image': f"https://atsentia.ai/{hero_image}" if hero_image else None,
+            'url': f"https://atsentia.com/blog/{slug}",  # No trailing slash
+            'hero_image': f"https://atsentia.com/{hero_image}" if hero_image else None,
         })
 
     # Sort by date, newest first

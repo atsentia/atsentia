@@ -62,11 +62,17 @@ def get_blog_posts(website_path: Path) -> list[dict]:
         # Generate slug from filename
         slug = file_path.stem
 
+        # Get hero image (remove leading slash if present)
+        hero_image = frontmatter.get('heroImage', '')
+        if hero_image.startswith('/'):
+            hero_image = hero_image[1:]
+
         posts.append({
             'title': frontmatter['title'],
             'slug': slug,
             'date': pub_date,
-            'url': f"https://atsentia.ai/blog/{slug}/",
+            'url': f"https://atsentia.ai/blog/{slug}",  # No trailing slash
+            'hero_image': f"https://atsentia.ai/{hero_image}" if hero_image else None,
         })
 
     # Sort by date, newest first
@@ -77,12 +83,18 @@ def format_date(date: datetime) -> str:
     """Format date as 'Mon D, YYYY' (e.g., 'Jan 8, 2026')."""
     return date.strftime('%b %-d, %Y')
 
-def generate_post_list(posts: list[dict]) -> str:
-    """Generate markdown list of blog posts."""
+def generate_post_list(posts: list[dict], with_images: bool = True) -> str:
+    """Generate markdown list of blog posts with optional hero images."""
     lines = []
     for post in posts:
         date_str = format_date(post['date'])
-        lines.append(f"- [{post['title']}]({post['url']}) — {date_str}")
+        if with_images and post.get('hero_image'):
+            # Image on its own line, then title/link
+            lines.append(f"[![{post['title']}]({post['hero_image']})]({post['url']})")
+            lines.append(f"**[{post['title']}]({post['url']})** — {date_str}")
+            lines.append("")  # Blank line between posts
+        else:
+            lines.append(f"- [{post['title']}]({post['url']}) — {date_str}")
     return '\n'.join(lines)
 
 def update_readme(readme_path: Path, post_list: str, dry_run: bool = True) -> bool:

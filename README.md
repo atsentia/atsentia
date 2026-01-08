@@ -7,11 +7,21 @@ We build high-performance software for the AI era, with a focus on efficiency an
 ## Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [mojo-vec: Zero-Copy Buffers That Match Rust Performance](https://atsentia.ai/blog/mojo-vec-zero-copy-buffers/) — Jan 8, 2026
-- [6.5 GB/s JSON Parsing in Mojo — Beating Rust and C++ on Apple Silicon](https://atsentia.ai/blog/mojo-json-beats-rust-cpp/) — Jan 5, 2026
-- [Building the Enterprise Foundation Mojo Needed](https://atsentia.ai/blog/mojo-enterprise-libraries/) — Jan 2, 2026
-- [4 bits is all you need (and 3.6 bit you have?) for resource-efficient LLMs?](https://atsentia.ai/blog/4-bits-is-all-you-need/) — Dec 4, 2025
-- [Towards milli-joules per token? AI on the Apple Watch](https://atsentia.ai/blog/towards-millijoules-per-token/) — Nov 26, 2025
+[![mojo-vec: Zero-Copy Buffers That Match Rust Performance](https://atsentia.ai/mojo-vec-architecture.jpeg)](https://atsentia.ai/blog/mojo-vec-zero-copy-buffers)
+**[mojo-vec: Zero-Copy Buffers That Match Rust Performance](https://atsentia.ai/blog/mojo-vec-zero-copy-buffers)** — Jan 8, 2026
+
+[![6.5 GB/s JSON Parsing in Mojo — Beating Rust and C++ on Apple Silicon](https://atsentia.ai/mojo-json-benchmark-hero.jpeg)](https://atsentia.ai/blog/mojo-json-beats-rust-cpp)
+**[6.5 GB/s JSON Parsing in Mojo — Beating Rust and C++ on Apple Silicon](https://atsentia.ai/blog/mojo-json-beats-rust-cpp)** — Jan 5, 2026
+
+[![Building the Enterprise Foundation Mojo Needed](https://atsentia.ai/mojo-enterprise-hero.jpeg)](https://atsentia.ai/blog/mojo-enterprise-libraries)
+**[Building the Enterprise Foundation Mojo Needed](https://atsentia.ai/blog/mojo-enterprise-libraries)** — Jan 2, 2026
+
+[![4 bits is all you need (and 3.6 bit you have?) for resource-efficient LLMs?](https://atsentia.ai/4bitisallyouneedbut3point6bitiswhatyouhave.jpeg)](https://atsentia.ai/blog/4-bits-is-all-you-need)
+**[4 bits is all you need (and 3.6 bit you have?) for resource-efficient LLMs?](https://atsentia.ai/blog/4-bits-is-all-you-need)** — Dec 4, 2025
+
+[![Towards milli-joules per token? AI on the Apple Watch](https://atsentia.ai/AIonAppleWatch.png)](https://atsentia.ai/blog/towards-millijoules-per-token)
+**[Towards milli-joules per token? AI on the Apple Watch](https://atsentia.ai/blog/towards-millijoules-per-token)** — Nov 26, 2025
+
 <!-- BLOG-POST-LIST:END -->
 
 ## Open Source

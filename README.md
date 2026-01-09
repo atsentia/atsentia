@@ -7,6 +7,9 @@ We build high-performance software for the AI era, with a focus on efficiency an
 ## Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+[![Mojo-tokenizer: Fastest AI Token Output → Readable Text on Apple Silicon?](https://atsentia.com/mojo-tokenizer-hero-v2.jpeg)](https://atsentia.com/blog/fastest-ai-token-decoder-mojo-apple-silicon)
+**[Mojo-tokenizer: Fastest AI Token Output → Readable Text on Apple Silicon?](https://atsentia.com/blog/fastest-ai-token-decoder-mojo-apple-silicon)** — Jan 9, 2026
+
 [![mojo-vec: Zero-Copy Buffers That Match Rust Performance](https://atsentia.com/mojo-vec-architecture.jpeg)](https://atsentia.com/blog/mojo-vec-zero-copy-buffers)
 **[mojo-vec: Zero-Copy Buffers That Match Rust Performance](https://atsentia.com/blog/mojo-vec-zero-copy-buffers)** — Jan 8, 2026
 
@@ -26,6 +29,7 @@ We build high-performance software for the AI era, with a focus on efficiency an
 
 ## Open Source
 
+- [mojo-tokenizer](https://github.com/atsentia/mojo-tokenizer) — High-performance BPE tokenizer for Mojo
 - [mojo-json](https://github.com/atsentia/mojo-json) — High-performance JSON parser for Mojo
 - [mojo-vec](https://github.com/atsentia/mojo-vec) — Zero-copy buffer library for Mojo
 - [mojo-contrib](https://github.com/atsentia/mojo-contrib) — Enterprise libraries for Mojo

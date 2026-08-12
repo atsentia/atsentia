@@ -1,3 +1,5 @@
+
+
 # Atsentia
 
 AI-powered market intelligence and competitive analysis.
@@ -26,6 +28,8 @@ We build high-performance software for the AI era, with a focus on efficiency an
 **[Towards milli-joules per token? AI on the Apple Watch](https://atsentia.com/blog/towards-millijoules-per-token)** — Nov 26, 2025
 
 <!-- BLOG-POST-LIST:END -->
+
+Blog posts are automatically synced from our website using [sync-blog-posts.py](sync-blog-posts.py).
 
 ## Open Source
 
